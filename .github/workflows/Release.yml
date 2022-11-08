@@ -2,7 +2,7 @@ name: Release APP Demo
 
 on:
   workflow_run:
-    workflows: ["Run Tests"]
+    workflows: ["Build and Release APP Demo"]
     branches: [main]
     types: 
       - completed
